@@ -4,7 +4,7 @@ Sass file creating
 # Sass for Beginner to mastered
 
 ## Installation 
-* First you can install in vsCode extention by typing live Sass Compiler.
+* First thing to do if not, you have to install in vsCode Sasss compiler extension.
 you can modify the settings file in Json, edit and give a path to your project : 
 ```
 "liveSassCompile.settings.formats":[
@@ -15,7 +15,7 @@ you can modify the settings file in Json, edit and give a path to your project :
     }
 ]
 ```
-when you that, you just have to create a new html file in a folder, go the root and create another folder name it as you want like SCSS, and create a main file with `.scss extention`. 
+when you do that, you just have to create a new html file in a folder, go the root and create another folder name it as you want like SCSS, and create a main file with `.scss extention`. 
 livecompiler are watching your main.scss file and automaticaly compile to give you a css file create wtith map file. 
 
 ## How to use Scss Variable 
