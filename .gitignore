@@ -6,3 +6,5 @@
 /node_modules/*
 *.vscode
 /build/
+/main.css.map/
+
