@@ -16,18 +16,18 @@ you can modify the settings file in Json, edit and give a path to your project :
 ]
 ```
 when you do that, you just have to create a new html file in a folder, go the root and create another folder name it as you want like SCSS, and create a main file with `.scss extention`. 
-livecompiler are watching your main.scss file and automaticaly compile to give you a css file create wtith map file. 
+livecompiler are watching your main.scss file and automaticaly compile to give you a css file create with map file. 
 
-## How to use Scss Variable 
+## How to use Scss Variable? 
 
 in your main file : 
 ```
-$primary-color: #D12424
-$primary-color: #D12424
-$primary-color: #D12424
 $primary-color: #D12424;
+$new-color: #222888;
+$another-color: #000876;
+$secondary-color: #D12424;
 
-//now you can call it like this 
+### now you can call it like this 
 
 body {
   background : $primary-color;
@@ -61,10 +61,10 @@ You can use & to tell css it's a child of. in example when you give a className 
  
 }
 ```
-# Partial you Scss to give a good way to maintain you code: 
+## Partial you Scss to give a good way to maintain you code: 
 juste create in you SCSS folder a new file with the name you want starting by underscore: like _reset, _variables, _home, _about etc. In your main file you can call them with **@import './<choose your partial>'**
 
-# function in SCSS 
+## function in SCSS 
 
 we can create a function in SCSS just like in JavaScript; 
 ```
@@ -107,7 +107,7 @@ another exemple mixin use to define theme
 }
 //this create a double theme
 ```
-# Also use mixin to do responsive
+## Also use mixin to do responsive
 
 in this snippet like a exemple in your main Scss; before that you have to create a variable $mobile: 800px;
 
